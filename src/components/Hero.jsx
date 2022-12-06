@@ -12,11 +12,12 @@ const Hero = () => {
             <span className="white">Welcome to my website</span>
           </h1>
         </div>
-        <h1 className="text-gradient font-poppins font-semibold ss:text-[45px] text-[52px] pb-0 text-white ss:leading-[100.8px] w-full">
+        <h1 className="text-gradient font-poppins font-semibold ss:text-[35px] text-[32px] pb-0 text-white ss:leading-[100.8px] w-full">
           Quick presentation
         </h1>
         <p className={`${styles.paragraph} min-w-[700px] mt-0 pt-0`}>
-          Hello, my name is Mahdi HADDAD, I'm 24 years old and I'm an electrical engineer from Tunisia. I'm passionate about new technologies like artificial intelligence, internet of things and robotics... also I have interests in entrepreneurship that makes me work in developing two future startups in smart mobility and fintech.
+          My name is Mahdi HADDAD, 24 years old and I'm an electrical engineer from Tunisia. I'm passionate about artificial intelligence, internet of things and robotics. Also I have interests in entrepreneurship.
+          <br/> Currently, I'm looking for a new job for the upcoming year so, if you are a recruiter searching for new talents or you are an investor who would like to know more about Linkt and Velocipede +  please, do not hesitate to contact me.
         </p>
       </div>
 

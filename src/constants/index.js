@@ -6,20 +6,20 @@ export const navLinks = [
     title: "Home",
   },
   {
+    id: "clients",
+    title: "Clients",
+  },
+  {
     id: "product",
     title: "Product",
   },
   {
-    id: "features",
+    id: "skills",
     title: "Skills",
-  },
-  {
-    id: "clients",
-    title: "Clients",
   },
 ];
 
-export const features = [
+export const skills = [
   {
     id: "feature-1",
     icon: star,
@@ -48,7 +48,7 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+    name: "3 years electrical engineering cycle - equivalent to M2",
     title: "Founder & Leader",
     img: people01,
   },
@@ -56,7 +56,7 @@ export const feedback = [
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+    name: "2 years preparatory cycle for engineering studies - equivalent to BSc",
     title: "Founder & Leader",
     img: people02,
   },
@@ -64,9 +64,7 @@ export const feedback = [
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Scientific baccalaureate",
   },
 ];
 
