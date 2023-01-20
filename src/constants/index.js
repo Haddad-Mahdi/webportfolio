@@ -7,15 +7,15 @@ export const navLinks = [
   },
   {
     id: "clients",
-    title: "Clients",
-  },
-  {
-    id: "product",
-    title: "Product",
+    title: "Background",
   },
   {
     id: "skills",
     title: "Skills",
+  },
+  {
+    id: "product",
+    title: "Product",
   },
 ];
 
@@ -23,40 +23,65 @@ export const skills = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Programming",
+    content:
+      "Good programming and algorithmic skills for Hardware and Software development using C, C++, Java, Python, React JS ..",
+  },
+  {
+    id: "feature-2",
+    icon: star,
+    title: "AI development",
+    content:
+      "Interested in AI domain and continuously working to developed my skills to bulid and use ML and DL algorithms for different applications",
+  },
+  {
+    id: "feature-3",
+    icon: star,
+    title: "IoT development ",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const skil = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Prog",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: star,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: star,
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
 ];
 
+
 export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "3 years electrical engineering cycle - equivalent to M2",
+      "Advanced training in electric and electronics. More concentration in automation and software/hardware programming.",
+    name: "3 years electrical engineering cycle equivalent to M2",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "2 years preparatory cycle for engineering studies - equivalent to BSc",
+      "2 years of intensive course in mathematics, physics and chemistry.",
+    name: "Preparatory cycle for engineering studies equivalent to BSc",
     title: "Founder & Leader",
     img: people02,
   },
@@ -76,7 +101,7 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Projects in related fields",
+    title: "Projects ",
     value: "+8",
   },
   {

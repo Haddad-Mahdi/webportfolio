@@ -1,4 +1,6 @@
 import { skills } from "../constants";
+import { skil } from "../constants";
+
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -32,7 +34,7 @@ const Business = () =>  (
     </div>
 
     <div className={`${layout.sectionImg} flex-col pt-16`}>
-      {skills.map((feature, index) => (
+      {skil.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>

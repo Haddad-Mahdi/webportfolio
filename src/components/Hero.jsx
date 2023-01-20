@@ -16,8 +16,9 @@ const Hero = () => {
           Quick presentation
         </h1>
         <p className={`${styles.paragraph} min-w-[700px] mt-0 pt-0`}>
-          My name is Mahdi HADDAD, 24 years old and I'm an electrical engineer from Tunisia. I'm passionate about artificial intelligence, internet of things and robotics. Also I have interests in entrepreneurship.
-          <br/> Currently, I'm looking for a new job for the upcoming year so, if you are a recruiter searching for new talents or you are an investor who would like to know more about Linkt and Velocipede +  please, do not hesitate to contact me.
+        My name is Mahdi HADDAD. I am 24 years old and an electrical engineer from Tunisia. I am passionate about artificial intelligence, internet of things, and robotics. Additionally, I have an interest in entrepreneurship.
+        <br/>
+          <br/>If you are an investor who would like to learn more about Linkt and Velocipede+, please do not hesitate to contact me.
         </p>
       </div>
 
